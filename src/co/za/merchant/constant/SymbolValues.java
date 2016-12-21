@@ -1,3 +1,4 @@
+package co.za.merchant.constant;
 
 /**
  * 

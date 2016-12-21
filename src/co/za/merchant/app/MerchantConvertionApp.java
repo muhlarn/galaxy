@@ -1,3 +1,5 @@
+package co.za.merchant.app;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -5,12 +7,17 @@ import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
 
+import co.za.merchant.constant.SymbolValues;
+import co.za.merchant.util.FileUtil;
+import co.za.merchant.util.RepeatedValueUtil;
+import co.za.merchant.util.SubtractionRulesUtil;
+
 /**
  * 
  * @author bay
  *
  */
-public class CurrencyRules {
+public class MerchantConvertionApp {
 	
 	public static void main(String[] args) {
 		runFromFile();
