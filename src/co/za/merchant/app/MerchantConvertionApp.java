@@ -23,6 +23,10 @@ public class MerchantConvertionApp {
 		runFromFile();
 	}
 	
+	/**
+	 * 
+	 * @return
+	 */
 	public static String runFromFile() {
 		
 		String total = "";		
